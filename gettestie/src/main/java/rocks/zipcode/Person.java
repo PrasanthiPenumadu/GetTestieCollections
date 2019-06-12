@@ -1,15 +1,16 @@
 package gettestie.src.main.java.rocks.zipcode;
-
+import gettestie.src.main.java.rocks.zipcode.Address;
 
 public class Person {
     private String name;
     private int yearOfBirth;
     private Address address;
+    //Address address=new Address();
 
     /**
      * Create a person with given name and age.
      */
-    Person(String name, int yearOfBirth) {
+    public Person(String name, int yearOfBirth) {
         this.name = name;
         this.yearOfBirth = yearOfBirth;
     }

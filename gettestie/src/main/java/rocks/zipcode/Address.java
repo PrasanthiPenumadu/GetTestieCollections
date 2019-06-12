@@ -5,6 +5,7 @@ public class Address {
     private String town;
     private String postCode;
     private String country;
+    public Address(){}
 
     /**
      * Construct an Address without country
